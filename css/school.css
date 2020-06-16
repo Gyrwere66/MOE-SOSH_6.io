@@ -1,0 +1,9 @@
+.block_pdf{
+    width: 9%;
+    margin: 0 0 0 20%;
+}
+
+.p_pdf{
+    color: rgb(65, 79, 141);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

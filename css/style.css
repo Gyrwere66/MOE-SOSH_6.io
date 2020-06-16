@@ -1,0 +1,335 @@
+/* <GLOBAL> */
+
+body{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    background: #d0dde7ce;
+    color: #a5a5a5;
+}
+
+.super_container {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+    display: block;
+}
+
+.li_nav:hover{
+    background-color:rgb(255, 164, 32);
+}
+
+ul {
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/* </GLOBAL> */
+
+/* <HEADER> */
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    display: block;
+}
+
+.header_container{
+    width: 100%;
+    position: absolute;
+}
+
+.header_nav{
+    background: #184fad;
+    position: relative;
+}
+
+.nav{
+    margin: 0px;
+    text-align: center;
+}
+
+.nav .li_nav{
+    display: inline-block;
+}
+
+/* </HEADER> */
+
+/* <ASIDE> */
+.logo{
+    width: 200px;
+    height: 39px;
+    margin: -16px 0px -39px 140px;
+}
+
+.logo_p{
+    color: rgba(24, 236, 236, 0.699);
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'TT Polls Script';
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.block_left{
+    float: left;
+    width: auto;
+    z-index: 5;
+    margin: 50px 20px 20px 10%;
+    background: white;
+    border-radius: 5px;
+}
+
+.a_color{
+    color: #184fad;
+} 
+
+.li_nav_a{
+    width: 180px;
+}
+
+.li_nav_a:hover{
+    background: #50a0bb36;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.li_nav_a:hover .li_nav_ul{
+    border-radius: 5px;
+    display: block;
+}
+
+.dropdown_ul{
+    width: auto;
+}
+
+.li_nav_ul{
+    padding-left: 10px;
+    display: none;
+}
+
+.li_nav_ul:hover{
+    background: #58b3d454;
+    border-radius: 5px;  
+    transition: 1s; 
+}
+
+/* </ASIDE> */
+
+/* <DIV_container> */
+.container{
+    margin-top: 5%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 3;
+    display: block;
+}
+
+.container_holydays{
+    margin: 5% 40% 0% 27%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 3;
+    display: block;
+}
+
+.info{
+    margin: 2% 22% 0% 30%;
+    background: rgba(255, 255, 255);
+    border-radius: 5px;
+    list-style-type: none;
+    display: block;
+    border-bottom: 5px solid rgb(43, 43, 172);
+}
+
+.div_img{
+    height: 70%;
+    margin: 0px;
+    padding: 5px 5px 5px 5px;
+}
+
+.a img{
+    border-radius: 5px;
+}
+
+.img_info{
+    width: 100%;
+    height: 150px;
+}
+
+.text_info{
+    height: 30%;
+    margin: 0;
+    padding: 5px 5px 10px 20px ;
+}
+
+.p_info{
+    height: auto;
+    color: rgba(190, 188, 188, 0.705);
+    border-bottom: 1px dotted rgb(124, 124, 124);
+}
+
+a:hover .p_info{
+    color: rgb(116, 116, 116);
+    transition: 1s;
+}
+
+.p_text{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(82, 84, 185);
+}
+
+.color_a:hover .p_text{
+    color: rgba(46, 168, 184, 0.575);
+    transition: 1s;
+}
+
+.a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+/* <BUTTON_UP> */
+
+.back_to_top {
+    position: fixed;
+    bottom: 100px;
+    right: 40px;
+    z-index: 50;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #8f8a8a;
+    color: rgb(243, 234, 234);
+    cursor: pointer;
+    border-radius: 2px;
+    display: none;
+}
+  
+.back_to_top:hover {
+    background: #4a4c4d;
+}
+  
+.back_to_top-show {
+    display: block;
+}
+
+/* </BUTTON_UP> */
+
+/* </DIV_container> */
+
+/* <DIV_footer> */
+
+#footer {
+    margin: 20px 0 0 -5px;
+    padding: 5px;
+    position: relative; 
+    background: #f5f5f5; /* Цвет фона */
+    color: rgb(66, 66, 66); /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
+
+#a_img_num{
+    width: 60px;
+    height: 35px;
+}
+
+#number_a{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    color: #330010;
+    text-decoration: none;
+    margin-top: 5px;
+    width: 120px;
+}
+
+#img_number{
+    width: 60px;
+    height: 35px;
+    margin-top: 5px;
+}
+
+/* </DIV_footer> */
+
+/* <Admission.html> */
+.info_basik{
+    border-bottom: 1px dotted black;
+    margin-left: 360px;
+}
+
+#h1_basik{
+    width: 280px;
+    margin-left: 5px;
+}
+
+.p_blue{
+    color: blue;
+    margin-left: 365px;
+}
+
+.a_basik{
+    color: black;
+    margin-left: 370px;
+}
+
+.a_basik:hover{
+    color:rgba(9, 98, 231, 0.87);
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.p_inf{
+    color: black;
+    margin: 0px;
+}
+
+#a_basik{
+    color: black;
+    margin: -20px 0px 0px 85px;
+}
+
+#a_basik:hover{
+    color:rgba(9, 98, 231, 0.87);
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.border{
+    border: 1px dotted black;
+    margin-left: 370px;
+    width: 680px;
+    padding: 5px;
+}

@@ -1,0 +1,122 @@
+@media screen and (min-width: 360px) and (max-width: 640px) {
+    
+    body{
+        font-family: 'Montserrat';
+        font-weight: 300;
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 400;
+        background: #edeef0;
+        color: #a5a5a5;
+    }
+
+    .nav .li_nav{
+        list-style-type: none;
+        display: block;
+    }
+
+    .nav .dropdown{
+        display: none;
+        background: #184fad;
+        position: absolute;
+        margin: 0px 3%;
+        padding: 0;
+        list-style-type: none;
+        z-index: 999;
+        max-width: none;
+        left: 0;
+        margin-top: 10px;
+    }
+
+    .block_left{
+        display: none;
+    }
+
+    .container{
+        margin-top: 35%;
+    }
+
+    .info{
+        margin: 2% 5% 0% 5%;
+        height: 100%;
+    }
+
+    .p_text{
+        font-size: 14px;
+    }
+
+    .img_info{
+        height: 80px;
+    }
+
+    .container_books{
+        margin: 40% 0px 0px 0px;
+        width: auto;
+    }
+
+    .area_books{
+        background: #11111100;
+    }
+
+    .logo{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body{
+        font-family: 'Montserrat';
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 400;
+        background: #edeef0;
+        color: #a5a5a5;
+    }
+    
+    .nav .li_nav{
+        list-style-type: none;
+        display: block;
+    }
+
+    .logo{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .div_img{
+        height: 60%;
+    }
+
+    .container_holydays{
+        margin: 5% 40% 0% 32%;   
+        width: 60%;     
+    }
+
+    .block_pdf{
+        width: 30%;
+        margin: 0 0 0 35%
+    }
+
+    .img_holydays{
+        width: 100%;
+    }
+
+    .h1{
+        font-size: 30px;
+    }
+
+    .info{
+        margin: 2% 12% 0% 34%
+    }
+
+    .container{
+        margin-top: 6%;
+    }
+
+    .container_books {
+        margin: 5% 0% 0% 330px;
+        width: auto;
+    }
+}    
