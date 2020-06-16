@@ -61,6 +61,11 @@
     .logo{
         display: none;
     }
+    
+    .container_holydays{
+        margin: 6% 40% 0% 32%;   
+        width: 60%;     
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -81,6 +86,11 @@
 
     .logo{
         display: none;
+    }
+    
+    .container_holydays{
+        margin: 6% 40% 0% 32%;   
+        width: 60%;     
     }
 }
 
