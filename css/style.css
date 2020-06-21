@@ -333,3 +333,12 @@ a:hover .p_info{
     width: 680px;
     padding: 5px;
 }
+
+.color_p{
+    color: black;
+}
+
+#bl_pdf{
+    width: 45%;
+    margin: 0px 0 0 10%;
+}

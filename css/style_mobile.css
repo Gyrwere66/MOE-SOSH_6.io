@@ -65,6 +65,28 @@
     .logo{
         display: none;
     }
+
+    .container_holydays{
+        margin: 22% 40% 0% 2%;
+    }
+
+    .img_holydays{
+        width: 93%;
+    }
+
+    .h1{
+        width: 99%;
+    }
+
+    #bl_pdf {
+        width: 84%;
+        margin: 0px 0 0 8%;
+    }
+
+    .block_pdf{
+        width: 40%;
+        margin: 0 0 0 30%;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
