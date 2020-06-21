@@ -342,3 +342,19 @@ a:hover .p_info{
     width: 45%;
     margin: 0px 0 0 10%;
 }
+
+#col_p{
+    line-height: 1.5;
+}
+
+#p_center{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    line-height: 2;
+}
+
+#p_right{
+    text-align: right;
+    font-size: 12px;
+}
