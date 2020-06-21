@@ -45,6 +45,10 @@
         font-size: 14px;
     }
 
+    .p_info{
+        color: black;
+    }
+
     .img_info{
         height: 80px;
     }
@@ -60,11 +64,6 @@
 
     .logo{
         display: none;
-    }
-    
-    .container_holydays{
-        margin: 6% 40% 0% 32%;   
-        width: 60%;     
     }
 }
 
@@ -87,11 +86,6 @@
     .logo{
         display: none;
     }
-    
-    .container_holydays{
-        margin: 6% 40% 0% 32%;   
-        width: 60%;     
-    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px){
@@ -100,7 +94,7 @@
     }
 
     .container_holydays{
-        margin: 6% 40% 0% 32%;   
+        margin: 5% 40% 0% 32%;   
         width: 60%;     
     }
 

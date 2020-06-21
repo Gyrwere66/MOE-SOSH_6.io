@@ -189,12 +189,12 @@ img{
 
 .p_info{
     height: auto;
-    color: rgba(190, 188, 188, 0.705);
+    color: rgba(73, 73, 73, 0.753);
     border-bottom: 1px dotted rgb(124, 124, 124);
 }
 
 a:hover .p_info{
-    color: rgb(116, 116, 116);
+    color: rgb(37, 37, 37);
     transition: 1s;
 }
 
